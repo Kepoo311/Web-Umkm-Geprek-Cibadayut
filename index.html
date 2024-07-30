@@ -309,17 +309,20 @@
         <h1 class="text-center" style="font-family: 'Trade Winds'; color: red;" data-aos="fade-down">MENU</h1>
         <ul class="nav nav-pills my-3 d-flex align-items-center justify-content-center" id="pills-tab" role="tablist" data-aos="fade-down">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="All-tab" data-bs-toggle="pill" data-bs-target="#All" type="button" role="tab" aria-controls="All" aria-selected="true">ALL</button>
+            <button class="nav-link" id="All-tab" data-bs-toggle="pill" data-bs-target="#All" type="button" role="tab" aria-controls="All" aria-selected="false">ALL</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="ayam-tab" data-bs-toggle="pill" data-bs-target="#ayam" type="button" role="tab" aria-controls="ayam" aria-selected="false">Ayam Geprek</button>
+            <button class="nav-link active" id="ayam-tab" data-bs-toggle="pill" data-bs-target="#ayam" type="button" role="tab" aria-controls="ayam" aria-selected="true">Ayam Geprek</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="usus-tab" data-bs-toggle="pill" data-bs-target="#usus" type="button" role="tab" aria-controls="usus" aria-selected="false">Usus</button>
+            <button class="nav-link" id="sidedish-tab" data-bs-toggle="pill" data-bs-target="#sidedish" type="button" role="tab" aria-controls="sidedish" aria-selected="false">Side Dish</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="minuman-tab" data-bs-toggle="pill" data-bs-target="#minuman" type="button" role="tab" aria-controls="minuman" aria-selected="false">Minuman</button>
           </li>
         </ul>
         <div class="tab-content mx-5" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="All" role="tabpanel" aria-labelledby="All-tab" tabindex="0">
+          <div class="tab-pane fade" id="All" role="tabpanel" aria-labelledby="All-tab" tabindex="0">
             <div class="row">
               <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
                 <div class="card" style="width: 18rem; height: 288px; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalGeprekOriginal">
@@ -366,9 +369,54 @@
                   </div>
                 </div>
               </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+                <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalLalapan">
+                  <img src="assets/lalapan.jpg" class="card-img-top" alt="Geprek" />
+                  <div class="card-body">
+                    <h5 class="card-title">Lalapan</h5>
+                    <p class="card-text">Rp. 5.000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+                <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalTahuTempe">
+                  <img src="assets/tahutempe.png" class="card-img-top" alt="Geprek" />
+                  <div class="card-body">
+                    <h5 class="card-title">Tahu Tempe</h5>
+                    <p class="card-text">Rp. 5.000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+                <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalAir">
+                  <img src="assets/airputih.jpg" class="card-img-top" alt="Geprek" />
+                  <div class="card-body">
+                    <h5 class="card-title">Air Putih Botol</h5>
+                    <p class="card-text">Rp. 5.000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+                <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalTeh">
+                  <img src="assets/teh.jpeg" class="card-img-top" alt="Geprek" />
+                  <div class="card-body">
+                    <h5 class="card-title">Teh Manis</h5>
+                    <p class="card-text">Rp. 5.000</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+                <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalEsJeruk">
+                  <img src="assets/esjeruk.jpg" class="card-img-top" alt="Geprek" />
+                  <div class="card-body">
+                    <h5 class="card-title">Es Jeruk</h5>
+                    <p class="card-text">Rp. 8.000</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="ayam" role="tabpanel" aria-labelledby="ayam-tab" tabindex="0">
+          <div class="tab-pane fade show active" id="ayam" role="tabpanel" aria-labelledby="ayam-tab" tabindex="0">
             <div class="row">
               <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
                 <div class="card" style="width: 18rem; height: 288px; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalGeprekOriginal">
@@ -408,7 +456,8 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="usus" role="tabpanel" aria-labelledby="usus-tab" tabindex="0">
+          <div class="tab-pane fade" id="sidedish" role="tabpanel" aria-labelledby="sidedish-tab" tabindex="0">
+            <div class="row">
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
               <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalUsusGeprek">
                 <img src="assets/ususgeprel.jpeg" class="card-img-top" alt="Geprek" />
@@ -418,6 +467,56 @@
                 </div>
               </div>
             </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+              <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalLalapan">
+                <img src="assets/lalapan.jpg" class="card-img-top" alt="Geprek" />
+                <div class="card-body">
+                  <h5 class="card-title">Lalapan</h5>
+                  <p class="card-text">Rp. 5.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+              <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalTahuTempe">
+                <img src="assets/tahutempe.png" class="card-img-top" alt="Geprek" />
+                <div class="card-body">
+                  <h5 class="card-title">Tahu Tempe</h5>
+                  <p class="card-text">Rp. 5.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="tab-pane fade" id="minuman" role="tabpanel" aria-labelledby="minuman-tab" tabindex="0">
+            <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+              <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalAir">
+                <img src="assets/airputih.jpg" class="card-img-top" alt="Geprek" />
+                <div class="card-body">
+                  <h5 class="card-title">Air Putih Botol</h5>
+                  <p class="card-text">Rp. 5.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+              <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalTeh">
+                <img src="assets/teh.jpeg" class="card-img-top" alt="Geprek" />
+                <div class="card-body">
+                  <h5 class="card-title">Teh Manis</h5>
+                  <p class="card-text">Rp. 5.000</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3 d-flex align-items-center justify-content-center" data-aos="zoom-in-up">
+              <div class="card" style="width: 18rem; cursor: pointer" data-bs-toggle="modal" data-bs-target="#modalEsJeruk">
+                <img src="assets/esjeruk.jpg" class="card-img-top" alt="Geprek" />
+                <div class="card-body">
+                  <h5 class="card-title">Es Jeruk</h5>
+                  <p class="card-text">Rp. 8.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -553,6 +652,135 @@
                 <img src="assets/ususgeprel.jpeg" class="img-fluid rounded mb-3" alt="Usus Geprek" style="width: 100%; height: auto" />
                 <p><strong>Harga:</strong> Rp 10.000</p>
                 <p><strong>Deskripsi:</strong> Usus ayam yang digeprek dengan sambal khas, memberikan rasa gurih dan pedas yang memanjakan lidah.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalLalapan" tabindex="-1" aria-labelledby="modalLalapanLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalLalapanLabel">
+                  Lalapan
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/lalapan.jpg" class="img-fluid rounded mb-3" alt="Lalapan" style="width: 100%; height: auto" />
+                <p><strong>Harga:</strong> Rp 5.000</p>
+                <p><strong>Deskripsi:</strong> Lalapan segar untuk menami ayam geprek mu.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalTahuTempe" tabindex="-1" aria-labelledby="modalTahuTempeLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalTahuTempeLabel">
+                  Tahu Tempe
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/tahutempe.png" class="img-fluid rounded mb-3" alt="Tahu Tempe" style="width: 100%; height: auto" />
+                <p><strong>Harga:</strong> Rp 5.000</p>
+                <p><strong>Deskripsi:</strong> Pelengkap untuk menikmati ayam geprek.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalTeh" tabindex="-1" aria-labelledby="modalTehLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalTehLabel">
+                  Teh Manis
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/teh.jpeg" class="img-fluid rounded mb-3" alt="Usus Geprek" style="width: 100%; height: auto" />
+                <p><strong>Harga:</strong> Rp 5.000</p>
+                <p><strong>Deskripsi:</strong> Teh hangat/dingin yang cocok diminum untuk meredakan rasa pedas.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalAir" tabindex="-1" aria-labelledby="modalAirLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalAirLabel">
+                  Air Putih
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/airputih.jpg" class="img-fluid rounded mb-3" alt="Air Putih" style="width: 100%; height: auto" />
+                <p><strong>Harga:</strong> Rp 5.000</p>
+                <p><strong>Deskripsi:</strong> Air putih segar.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="modalEsJeruk" tabindex="-1" aria-labelledby="modalEsJerukLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalEsJerukLabel">
+                  Usus Geprek
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                  <span class="text-warning">&#9733;</span>
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/esjeruk.jpg" class="img-fluid rounded mb-3" alt="Es Jeruk" style="width: 100%; height: auto" />
+                <p><strong>Harga:</strong> Rp 8.000</p>
+                <p><strong>Deskripsi:</strong> Es jeruk yang segar untuk meredakan rasa pedas sehabis makan ayam geprek.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
