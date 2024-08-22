@@ -1,0 +1,9 @@
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <pattern id="chili-fire-pattern" patternUnits="userSpaceOnUse" width="40" height="40">
+          <!-- Gambar Cabai -->
+          <image href="https://www.svgrepo.com/show/81312/chili.svg" x="0" y="0" width="20" height="20" />
+          <!-- Gambar Api -->
+          <image href="https://www.svgrepo.com/show/178077/flame-danger.svg" x="20" y="20" width="20" height="20" />
+        </pattern>
+        <rect width="100" height="100" fill="url(#chili-fire-pattern)" />
+      </svg>
